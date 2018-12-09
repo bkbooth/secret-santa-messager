@@ -9,7 +9,7 @@ Alternatively you can set them as real environment variables when running the co
 
 By default no SMS messages will be sent, you must set the environment variable `SEND_MESSAGES=true` when running a "live" command.
 
-Setup a data file for the Secret Santa gift group similar to the one shown in the example below.
+Setup a [data file](#the-data-file) for the Secret Santa gift group similar to the one shown in the [example](#example-data-file) below.
 
 ```sh
 $ node index.js -f data.json -g "Your Family Secret Santa"
@@ -20,11 +20,11 @@ $ node index.js -f data.json -g "Your Family Secret Santa"
 The data file should be a JSON file which contains an array of objects representing each gifter in the gift group.
 Each gifter object should include:
 
-* `id` - A unique ID for the gifter
-* `firstName` - The first name of the gifter
-* `lastName` - The last name of the gifter
-* `phoneNumber` - The phone number of the gifter. Must be in [E.164](https://www.twilio.com/docs/glossary/what-e164) format.
-* `exclusions` - An array of gifter ID's from the group that this gifter should not give to (eg. spouse or partner)
+- `id` - A unique ID for the gifter
+- `firstName` - The first name of the gifter
+- `lastName` - The last name of the gifter
+- `phoneNumber` - The phone number of the gifter. Must be in [E.164](https://www.twilio.com/docs/glossary/what-e164) format.
+- `exclusions` - An array of gifter ID's from the group that this gifter should not give to (eg. spouse or partner)
 
 ### Example data file
 
