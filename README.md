@@ -12,7 +12,7 @@ By default no SMS messages will be sent, you must set the environment variable `
 Setup a [data file](#the-data-file) for the Secret Santa gift group similar to the one shown in the [example](#example-data-file) below.
 
 ```sh
-$ node index.js -f data.json -g "Your Family Secret Santa"
+node index.js -f data.json -g "Your Family Secret Santa"
 ```
 
 ## The data file
