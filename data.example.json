@@ -1,0 +1,30 @@
+[
+  {
+    "id": "f4eb0de4-c1a8-44b0-9b1b-d499b6cc1372",
+    "firstName": "John",
+    "lastName": "Smith",
+    "phoneNumber": "+6112345678",
+    "exclusions": ["e18d90fb-b904-4aad-b317-75e9d02b3854"]
+  },
+  {
+    "id": "e18d90fb-b904-4aad-b317-75e9d02b3854",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "phoneNumber": "+61409876543",
+    "exclusions": ["f4eb0de4-c1a8-44b0-9b1b-d499b6cc1372"]
+  },
+  {
+    "id": "5db8afc5-1959-4103-a434-2a64f883ec81",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "phoneNumber": "+61411223344",
+    "exclusions": []
+  },
+  {
+    "id": "5dd21c5e-a0fe-4860-be2e-8113f138a74d",
+    "firstName": "Thomas",
+    "lastName": "Porter",
+    "phoneNumber": "+61455667788",
+    "exclusions": []
+  }
+]
