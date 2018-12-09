@@ -49,3 +49,16 @@ resolveGifters(data)
   )
   .then(() => console.log("Finished!"))
   .catch(error => console.error(`Error: ${error.message}`));
+
+/**
+ * @typedef Gifter
+ * @property {string} id
+ * @property {string} firstName
+ * @property {string} lastName
+ * @property {string} phoneNumber
+ * @property {string[]} exclusions
+ *
+ * @property {Gifter} [giftee]
+ * @property {Gifter[]} [possibleGiftees]
+ * @property {string[]} [triedGifteeIds]
+ */
