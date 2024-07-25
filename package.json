@@ -2,7 +2,7 @@
   "name": "secret-santa-texter",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Ben Booth <bkbooth@gmail.com>",
+  "author": "Ben Booth <hey@benbooth.dev>",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",
